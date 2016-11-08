@@ -44,34 +44,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.1.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.1.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.Web, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.1.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.AI.WindowsServer, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.1.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.ApplicationInsights, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.ApplicationInsights.2.1.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -155,130 +127,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\css\animate.css" />
-    <Content Include="Content\css\bootstrap.css" />
-    <Content Include="Content\css\flexslider.css" />
-    <Content Include="Content\css\lightbox.css" />
-    <Content Include="Content\css\style.css" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\images\1.jpg" />
-    <Content Include="Content\images\1.png" />
-    <Content Include="Content\images\10.jpg" />
-    <Content Include="Content\images\11.jpg" />
-    <Content Include="Content\images\12.jpg" />
-    <Content Include="Content\images\13.jpg" />
-    <Content Include="Content\images\14.jpg" />
-    <Content Include="Content\images\15.jpg" />
-    <Content Include="Content\images\16.jpg" />
-    <Content Include="Content\images\17.jpg" />
-    <Content Include="Content\images\18.jpg" />
-    <Content Include="Content\images\19.jpg" />
-    <Content Include="Content\images\2.jpg" />
-    <Content Include="Content\images\20.jpg" />
-    <Content Include="Content\images\21.jpg" />
-    <Content Include="Content\images\22.jpg" />
-    <Content Include="Content\images\23.jpg" />
-    <Content Include="Content\images\24.jpg" />
-    <Content Include="Content\images\25.jpg" />
-    <Content Include="Content\images\26.jpg" />
-    <Content Include="Content\images\27.jpg" />
-    <Content Include="Content\images\28.jpg" />
-    <Content Include="Content\images\29.jpg" />
-    <Content Include="Content\images\3.jpg" />
-    <Content Include="Content\images\30.jpg" />
-    <Content Include="Content\images\31.jpg" />
-    <Content Include="Content\images\32.jpg" />
-    <Content Include="Content\images\33.jpg" />
-    <Content Include="Content\images\34.jpg" />
-    <Content Include="Content\images\35.jpg" />
-    <Content Include="Content\images\36.jpg" />
-    <Content Include="Content\images\37.jpg" />
-    <Content Include="Content\images\38.jpg" />
-    <Content Include="Content\images\39.jpg" />
-    <Content Include="Content\images\4.jpg" />
-    <Content Include="Content\images\40.jpg" />
-    <Content Include="Content\images\41.jpg" />
-    <Content Include="Content\images\42.jpg" />
-    <Content Include="Content\images\43.jpg" />
-    <Content Include="Content\images\44.jpg" />
-    <Content Include="Content\images\45.jpg" />
-    <Content Include="Content\images\46.jpg" />
-    <Content Include="Content\images\47.jpg" />
-    <Content Include="Content\images\48.jpg" />
-    <Content Include="Content\images\49.jpg" />
-    <Content Include="Content\images\5.jpg" />
-    <Content Include="Content\images\50.jpg" />
-    <Content Include="Content\images\51.jpg" />
-    <Content Include="Content\images\52.jpg" />
-    <Content Include="Content\images\53.jpg" />
-    <Content Include="Content\images\54.jpg" />
-    <Content Include="Content\images\55.jpg" />
-    <Content Include="Content\images\56.jpg" />
-    <Content Include="Content\images\6.jpg" />
-    <Content Include="Content\images\7.jpg" />
-    <Content Include="Content\images\8.jpg" />
-    <Content Include="Content\images\9.jpg" />
-    <Content Include="Content\images\banner.jpg" />
-    <Content Include="Content\images\banner1.jpg" />
-    <Content Include="Content\images\banner2.jpg" />
-    <Content Include="Content\images\banner3.jpg" />
-    <Content Include="Content\images\banner4.jpg" />
-    <Content Include="Content\images\banner5.jpg" />
-    <Content Include="Content\images\close.png" />
-    <Content Include="Content\images\icons.png" />
-    <Content Include="Content\images\img-sp.png" />
-    <Content Include="Content\images\img-sp1.png" />
-    <Content Include="Content\images\img1.jpg" />
-    <Content Include="Content\images\img10.jpg" />
-    <Content Include="Content\images\img11.jpg" />
-    <Content Include="Content\images\img12.jpg" />
-    <Content Include="Content\images\img13.jpg" />
-    <Content Include="Content\images\img14.jpg" />
-    <Content Include="Content\images\img2.jpg" />
-    <Content Include="Content\images\img3.jpg" />
-    <Content Include="Content\images\img4.jpg" />
-    <Content Include="Content\images\img5.jpg" />
-    <Content Include="Content\images\img6.jpg" />
-    <Content Include="Content\images\img7.jpg" />
-    <Content Include="Content\images\img8.jpg" />
-    <Content Include="Content\images\img9.jpg" />
-    <Content Include="Content\images\logo.gif" />
-    <Content Include="Content\images\move-up.png" />
-    <Content Include="Content\images\next.png" />
-    <Content Include="Content\images\prev.png" />
-    <Content Include="Content\images\shadow.png" />
-    <Content Include="Content\images\slid.jpg" />
-    <Content Include="Content\images\slid1.jpg" />
-    <Content Include="Content\images\slid2.jpg" />
-    <Content Include="Content\images\slid3.jpg" />
-    <Content Include="Content\images\slid4.jpg" />
-    <Content Include="Content\images\slid5.jpg" />
-    <Content Include="Content\images\thumbnail-overlay.png" />
-    <Content Include="Content\images\thumbnail-shadow.png" />
-    <Content Include="Content\js\bootstrap.js" />
-    <Content Include="Content\js\easing.js" />
-    <Content Include="Content\js\easyResponsiveTabs.js" />
-    <Content Include="Content\js\jquery-1.11.1.min.js" />
-    <Content Include="Content\js\jquery.flexslider.js" />
-    <Content Include="Content\js\lightbox-plus-jquery.min.js" />
-    <Content Include="Content\js\mootools-yui-compressed.js" />
-    <Content Include="Content\js\move-top.js" />
-    <Content Include="Content\js\responsiveslides.min.js" />
-    <Content Include="Content\js\wow.min.js" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\fonts\Engagement-Regular.ttf" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Content\fonts\PT_Sans-Narrow-Web-Regular.ttf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -302,6 +158,8 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
